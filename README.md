@@ -29,7 +29,7 @@ Justificativa: O erro do código acontece pois um "console.log" não pode mostra
         }
         console.log(soma(2, 0));
 
-*a) Substituir if (a || b === 0) por if (a === 0 || b === 0)*
+**a) Substituir if (a || b === 0) por if (a === 0 || b === 0)**
 
 b) Substituir if (a || b === 0) por if (a === 0 && b === 0)
 
@@ -64,7 +64,7 @@ Justificativa: A substituição deve acontecer para que o código funcione pois 
 
 a) O código imprime 1000.
 
-*b) O código imprime 200.*
+**b) O código imprime 200.**
 
 c) O código imprime 50.
 
@@ -78,14 +78,14 @@ Justificativa: O código imprime 200 pois é o próximo caminho depois do case("
 
         let resultado = numeros.map(x => x * 2).filter(x => x > 5).reduce((a, b) => a + b, 0);
 
-console.log(resultado);
+        console.log(resultado);
 a) 0
 
 b) 6
 
 c) 18
 
-*d) 24*
+**d) 24**
 
 Justificativa: O código multiplica todos os elementos do array por 2, em seguida verifica os resultados que são maiores do que 5 e por fim os soma e imprime o resultado
 
@@ -99,7 +99,7 @@ a) ["banana", "maçã", "uva", "abacaxi", "manga", "laranja"]
 
 b) ["banana", "abacaxi", "manga"]
 
-*c) ["banana", "abacaxi", "manga", "laranja"]*
+**c) ["banana", "abacaxi", "manga", "laranja"]**
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
 
@@ -111,7 +111,7 @@ I. A herança é utilizada para compartilhar métodos e propriedades entre class
 
 II. Em JavaScript, a herança é implementada através da palavra-chave extends.
 
-*a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.*
+**a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.**
 
 b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira.
 
@@ -154,7 +154,7 @@ III) O código não funciona corretamente, pois Funcionario não pode herdar de 
 
 Quais das seguintes afirmações são verdadeiras sobre o código acima?
 
-*a) I e II são verdadeiras.*
+**a) I e II são verdadeiras.**
 
 b) I, II e III são verdadeiras.
 
@@ -171,7 +171,7 @@ Razão: Em JavaScript, o polimorfismo pode ser implementado utilizando o método
 
 a) A asserção é falsa e a razão é verdadeira.
 
-*b) A asserção é verdadeira e a razão é falsa.*
+**b) A asserção é verdadeira e a razão é falsa.**
 
 c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explica a asserção.
 
